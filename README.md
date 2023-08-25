@@ -64,8 +64,10 @@ bool buttonstatus;
 
 
 void pushbutton();
-[15:45, 8/22/2023] Yogesh (Sec): void pushbutton()
+
+void pushbutton()
 {
+
 	buttonstatus=HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13);
 	if(buttonstatus==0)
 	 {
